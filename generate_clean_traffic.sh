@@ -1,13 +1,12 @@
 #!/bin/bash
 SECONDS=0
 while true; do  
-   for i in documentation example plugin ; do
-      curl -s -m 1 -o /dev/null -w "$i.html\tstatus: %{http_code}\tbytes: %{size_download}\ttime: %{time_total}\n" lamp/myapp/$i/index.html
-      curl -s -m 1 -o /dev/null -w "$i.html\tstatus: %{http_code}\tbytes: %{size_download}\ttime: %{time_total}\n" lamp/myapp/$i/index.html
-      curl -s -m 1 -o /dev/null -w "$i.html\tstatus: %{http_code}\tbytes: %{size_download}\ttime: %{time_total}\n" lamp/myapp/$i/index.html
-      curl -s -m 1 -o /dev/null -w "$i.html\tstatus: %{http_code}\tbytes: %{size_download}\ttime: %{time_total}\n" lamp/myapp/$i/index.html
+   for i in welcome.php images/F5_building.jpg headers.php bigtext.html images/bigip4200.jpg httprequest.php; do
+      curl -s -m 1 -o /dev/null -w "$i.html\tstatus: %{http_code}\tbytes: %{size_download}\ttime: %{time_total}\n" server2.f5demo.com/$i
+      curl -s -m 1 -o /dev/null -w "$i.html\tstatus: %{http_code}\tbytes: %{size_download}\ttime: %{time_total}\n" server2.f5demo.com/$i
+      curl -s -m 1 -o /dev/null -w "$i.html\tstatus: %{http_code}\tbytes: %{size_download}\ttime: %{time_total}\n" server2.f5demo.com/$i
+      curl -s -m 1 -o /dev/null -w "$i.html\tstatus: %{http_code}\tbytes: %{size_download}\ttime: %{time_total}\n" server2.f5demo.com/$i
    done
-
 sleep 1
 clear
 echo
