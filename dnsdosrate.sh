@@ -6,4 +6,5 @@
 
 echo "Starting DNS attack with 300 A Queries/S"
 echo "dnsperf -s 10.1.20.14 -d fqdns.txt -Q 300 -S 5 -c 100 -l 9120"
-dnsperf -s 10.1.20.14 -d fqdns.txt -Q 300 -S 5 -c 100 -l 9120
+docker run -v ~/tools_agility_183:/root/tools_agility_183 -it mrlesmithjr/dnsperf \
+    	dnsperf -s 10.1.20.14 -d /root/tools_agility_183/fqdns.txt -Q 300 -S 5 -c 100 -l 9120
